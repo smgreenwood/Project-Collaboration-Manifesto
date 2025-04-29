@@ -1,0 +1,34 @@
+
+---
+
+### 📄 **File:** `Project-Collaboration-Manifesto/Collaboration_Manifesto.yaml`
+```yaml
+# Collaboration_Manifesto.yaml
+# Machine-readable version of the Project Collaboration Manifesto
+
+manifesto_version: "1.0"
+created_on: "2025-04-28"
+maintained_by: "smgreenwood"
+
+working_standards:
+  batch_delivery: true
+  batch_size: "3-5 files per batch"
+  relative_paths_required: true
+  copy_paste_priority: true
+  download_link_warning: "Respectful professional sass enabled"
+  working_agreements_formats:
+    - YAML
+    - Markdown
+  setup_script_pattern: "projectname_setup.py"
+  validation_script_pattern: "projectname_validation.py"
+  pause_for_user_input: true
+  color_coded_cli_outputs: true
+  extensible_modular_structure: true
+
+workflow_expectations:
+  - Setup project directory and empty files
+  - Author 3–5 file batches
+  - Manually copy-paste file contents
+  - Validate structure
+  - Perform Git setup and push
+  - Polish or extend as desired
